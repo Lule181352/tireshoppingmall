@@ -1,0 +1,283 @@
+@charset "UTF-8";
+
+
+.car-findselect{
+	height:70px;
+	width: 100%;
+	background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+}
+
+
+
+
+
+.brandRegButton {
+	background-color: #5F5F5F;
+	color: #FFFFFF;
+	border: none;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	margin-left: 20px;
+	font-size: 16px;
+	font-weight: bold;
+	border-radius: 50px;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+	margin: 20px;
+}
+
+.brandRegButton:hover {
+	background-color: #FFFFFF;
+	color: #5F5F5F;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+.brandRegButton1 {
+	margin-left: auto;
+	position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#admin_car_content {
+	margin-left: 10px;
+	margin-right: 10px;
+	border-spacing: 0px;
+	width: 99%;
+	text-align: center;
+	font-size: 20pt;
+	margin-bottom: 60px;
+	margin-top: 5px;
+	border: 1px #a39485 solid;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .25);
+    border-collapse: collapse;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.admin_car_content_title {
+	font-size: 15pt;
+	padding: 15px;
+	background-color: #343a40;
+	color: white;
+	text-align: center;
+	border: 1px solid #343a40;
+	user-select: none;
+}
+.admin_brand_num{
+	width: 15%;
+}
+.admin_brand_no {
+	width: 35%;
+}
+
+.admin_brand_each {
+	width: 35%;
+}
+
+.admin_brand_manage {
+	width: 15%;
+}
+
+#admin_cars_content {
+	text-align: center;
+	font-size: 15pt;
+	border: 1px solid #343a40;
+	height: 60px;
+}
+
+.admin_car_table_td {
+	padding-bottom: 3px;
+	padding-top: 3px;
+	border: 1px solid #343a40;
+}
+
+.updatecarbrandbutton {
+	margin-left: 5px;
+	margin-right: 5px;
+	border-radius: 7px;
+	font-weight: 900;
+	font-size: 12pt;
+	padding: 6px;
+	color: #212529;
+	background-color: #fff;
+	border-color: #212529;
+	cursor: pointer;
+	user-select: none;
+	font-family: GmarketSansMedium;
+}
+
+.updatecarbrandbutton:hover {
+	color: #fff;
+	background-color: #212529;
+	border-color: #212529;
+}
+
+.deletecarbrandbutton {
+	margin-left: 5px;
+	margin-right: 5px;
+	border-radius: 7px;
+	font-weight: 900;
+	font-size: 12pt;
+	padding: 6px;
+	color: #dc3545;
+	background-color: #fff;
+	border-color: #dc3545;
+	cursor: pointer;
+	user-select: none;
+	font-family: GmarketSansMedium;
+}
+
+.deletecarbrandbutton:hover {
+	color: #fff;
+	background-color: #dc3545;
+	border-color: #dc3545;
+}
+
+.admin_car_brand_name{
+	border: none;
+	text-align:center;
+	width:80%;
+	padding: 10px;
+	font-size: 15pt;
+	font-family: GmarketSansMedium;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 모달 */
+#admin_car_brand_reg_modal{
+	position:fixed;
+	display: none;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 1001;
+    justify-content: center;
+    align-items: center;
+}
+
+.admin_car_brand_reg_page{
+	background-color:white;
+	border: 1px solid #6b6b6b;
+}
+.admin_car_brand_reg_page_table{
+	width:500px;
+	border:none;
+	background-color: white;
+	padding: 10px;
+	border-radius: 10px;
+}
+.admin_car_brand_reg_title{
+ 	padding:10px;
+	text-align: center;
+	border-bottom: 1px solid #6b6b6b;
+}
+.admin-car-brand-reg-input{
+	padding: 10px;
+	border-bottom: 1px solid #6b6b6b;
+}
+
+
+
+
+.admin_car_brand_reg_BrandName{
+	display: flex;
+	height: 40px;
+	align-items: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.admin_car_brand_reg_td_title{
+	margin-right: 15px;	
+}
+
+.admin_car_brand_reg_brand_name{
+	width: 250px;
+	height: 30px;
+	text-align: center;
+	font-family: GmarketSansMedium;
+	font-size: 15pt;
+}
+
+.admin_carBrand_reg_button{
+	padding:15px;
+	padding-top:20px;
+	width:100%;	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.admin-carBrand-reg-button{
+	border-radius:7px;
+	margin-right:20px;
+	padding:6px;
+	color: #0d6efd;
+    background-color: #fff;
+    border :1px solid #0d6efd;
+    font-size: 12pt;
+    font-weight: 900;
+    cursor: pointer; 
+    user-select: none;
+    font-family: GmarketSansMedium;	
+    margin-right: 5px;
+}
+.admin-carBrand-reg-button:hover{
+	color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+.admin_carBrand_deleteBTN{	
+	margin-left:20px;
+	border-radius:7px;
+	font-weight: 900;
+	font-size: 12pt;
+	padding:6px;
+	color: #212529;
+    background-color: #fff;
+    border :1px solid #212529;
+    cursor: pointer; 
+    user-select: none;
+    font-family: GmarketSansMedium;	
+}
+.admin_carBrand_deleteBTN:hover{
+	color: #fff;
+    background-color: #212529;
+    border-color: #212529;
+}
+
+
+
+
+
+
+
+
+
